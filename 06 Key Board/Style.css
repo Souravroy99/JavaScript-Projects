@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121 ;
+    color: aliceblue;
+}
+ 
+.project{
+    height: 100vh;
+    font-size: 4.5rem;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table, td, th,tr{
+    border: 2px solid rgb(255, 255, 255) ;
+}
+
+td{
+    color: rgba(13, 13, 241, 0.874);
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 100vh ;
+}
+
+button{
+    width: 7rem ;
+    height: 2rem ;
+    border-radius: 1.4rem ;
+    background-color: orange ;
+    margin-left: 28%;
+    margin-bottom: -1rem;
+}
+
+#weight-guide{
+    padding: 20px;
+    line-height: 40px;
+    gap: 10px;
+}
+
+#results{
+    font-size: 30px;
+}
+#notice{
+    margin-top: 2rem;
+    font-size: 25px;
+    margin-left: 19% ;
+    margin-bottom: -9%;
+}
